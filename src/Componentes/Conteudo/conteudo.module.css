@@ -14,11 +14,6 @@
     margin-bottom: 1%;
 }
 
-.texto1{
-    color: white;
-    font-size: 0.8rem;
-}
-
 .titulo{
     color: rgb(255,211,0);
     font-size: 1.3rem;
@@ -26,4 +21,44 @@
 
 strong{
     color: rgb(255,211,0);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo{
+        flex-direction: column;
+        gap: 5rem;
+        padding: 10% 5%;
+    }
+
+    .secao__textos{
+        gap: 2rem;
+    }
+
+    .texto{
+        font-size: 1.1rem;
+    }
+
+    .titulo{
+        font-size: 1.5rem;
+        text-align: center  ;
+    }
+}
+
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo{
+        padding: 5%;
+        gap: 3rem;
+    }
+
+    .texto{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .titulo{
+        font-size: 1.4rem;
+        text-align: center;
+    }
 }

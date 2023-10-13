@@ -8,7 +8,7 @@ export default function Conteudo() {
         <main className={style.conteudo}>
             <section className={style.secao__textos}>
                 <h1 className={style.titulo}>CHEGOU A HORA DE SENTIR A EMOÇÃO DE FAZER O DESENHO PERFEITO NO PAPEL!</h1>
-                <p>Conheça um método fácil que foi testado e aprovado por mais  de <strong>120 mil alunos</strong> em <strong>7 países</strong></p>
+                <p className={style.texto}>Conheça um método fácil que foi testado e aprovado por mais  de <strong>120 mil alunos</strong> em <strong>7 países</strong></p>
             </section>
             <Video />
             <Botao />
