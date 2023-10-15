@@ -1,0 +1,25 @@
+.container__valor{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.4);
+    margin: 2rem 0;
+    margin-top: 4rem;
+    color: black;
+    padding: 2rem 5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.container__valor h3{
+    font-size: 2rem;
+}
+
+.container__valor p{
+    font-size: 1.5rem;
+}
+
+.container__valor strong{
+    font-size: 4rem;
+    color: rgb(80,182,18);
+}

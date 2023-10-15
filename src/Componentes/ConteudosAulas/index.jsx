@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './conteudosaulas.module.css'
 import Botao from '../Botao'
+import Valor from '../Valor'
 
 export default function ConteudosAulas() {
   return (
@@ -58,6 +59,7 @@ export default function ConteudosAulas() {
           </section>
         </section>
       </section>
+      <Valor />
       <Botao />
     </main>
   )
