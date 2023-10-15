@@ -1,0 +1,70 @@
+.resultados__alunos{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titulo__depoimentos{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.textos__depoimentos{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.depoimentos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.lista__depoimentos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .resultados__alunos{
+        width: 100vw;
+    }
+
+    .imagens{
+        width: 48%;
+    }
+}
+
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    
+    .resultados__alunos{
+        padding: 1rem;
+    }
+
+    .lista__depoimentos{
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .imagens{
+        width: 45%;
+    }
+}

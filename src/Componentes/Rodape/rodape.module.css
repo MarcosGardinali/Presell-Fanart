@@ -1,0 +1,17 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    align-items: center;
+}
+
+.rodape p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: rgb(80,182,18);
+}
